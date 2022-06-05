@@ -32,3 +32,8 @@ console.log(tribonacci([3,2,1],10))
 //Using arrow function
 //Ust the spread operator to create an array of length 'n' .Use the reduce method()first input the values of the array that are given, then for each following index  add the value of an element to the value of the next two elements , returning a list of all the elements which has a list of n
 const tribonacci1 = (signature, n) => [...Array(n)].reduce((arr,_, idx)=>[...arr,arr[idx]+ arr[idx+1]+ arr[idx+2]],signature).slice(0,n);
+
+
+
+
+
