@@ -17,4 +17,4 @@ const gooseFilter = birds => birds.filter(bird=>bird ==='Mallard'||bird ==='Hook
 
 //Making a variable that excludes the !geese, anf filter over the list
 const GEESE = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
-const gooseFilter = birds => birds.filter(bird => !GEESE.includes(bird));
+const gooseFilter1 = birds => birds.filter(bird => !GEESE.includes(bird));
