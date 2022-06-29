@@ -12,4 +12,4 @@ const simpleMultiplication = number => number % 2 === 0 ? number * 8 : number * 
 
 //Alternatively
 
-const simpleMultiplication = number => number * (number % 2 ? 9:8)
+const simpleMultiplication1 = number => number * (number % 2 ? 9:8)
